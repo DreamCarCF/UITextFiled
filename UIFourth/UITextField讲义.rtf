@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg936\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fnil\fcharset134 STXihei;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25100\viewh13780\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx4948\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs44 \cf0 \'d6\'aa\'ca\'b6\'b5\'e3:\
+	1.
+\fs48 UIView \'cd\'a3\'bf\'bf\'c4\'a3\'ca\'bd
+\fs44 \
+	2.UIViewController\'d6\'ae\'bc\'e4\'b5\'c4\'c7\'d0\'bb\'bb\
+	3.\'b6\'e0\'b8\'f6Controller\'d6\'ae\'bc\'e4\'b5\'c4\'ca\'fd\'be\'dd\'c8\'e7\'ba\'ce\'bd\'bb\'bb\'bb\
+	4.UITextField\'ca\'b9\'d3\'c3\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\fs48 \cf0 =====================\
+UIView \'cd\'a3\'bf\'bf\'c4\'a3\'ca\'bd\
+\
+   1.\'d7\'d4\'b6\'af\'b2\'bc\'be\'d6:\'b5\'b1\'b8\'b8\'ca\'d3\'cd\'bc\'b1\'e4\'bb\'af\'ca\'b1\'d7\'d3\'ca\'d3\'cd\'bc\'c8\'e7\'ba\'ce\'b1\'e4\'bb\'af\
+	1\'a3\'a9\'cf\'c8\'c9\'e8\'d6\'c3\'b8\'b8\'ca\'d3\'cd\'bc\'b5\'c4autoresize\'ca\'f4\'d0\'d4\'ce\'aaYES\
+	2\'a3\'a9\'d4\'d9\'c9\'e8\'d6\'c3\'d7\'d3\'ca\'d3\'cd\'bc\'b5\'c4mask\'ca\'f4\'d0\'d4\
+\
+    @property(nonatomic) BOOL autoresizesSubviews;\
+\
+    @property(nonatomic) UIViewAutoresizing autoresizingMask;\
+	\expnd0\expndtw0\kerning0
+UIViewAutoresizingNone\
+		\'be\'cd\'ca\'c7\'b2\'bb\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'a1\'a3\
+	UIViewAutoresizingFlexibleLeftMargin \
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d3\'ebsuperView\'d7\'f3\'b1\'df\'b5\'c4\'be\'e0\'c0\'eb\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'d3\'d2\'b1\'df\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4	UIViewAutoresizingFlexibleRightMargin\
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d3\'ebsuperView\'b5\'c4\'d3\'d2\'b1\'df\'be\'e0\'c0\'eb\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'d7\'f3\'b1\'df\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4\'a1\'a3	UIViewAutoresizingFlexibleTopMargin \
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d3\'ebsuperView\'b6\'a5\'b2\'bf\'b5\'c4\'be\'e0\'c0\'eb\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'b5\'d7\'b2\'bf\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4\'a1\'a3	UIViewAutoresizingFlexibleBottomMargin \
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d3\'ebsuperView\'b5\'d7\'b2\'bf\'b5\'c4\'be\'e0\'c0\'eb\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'b6\'a5\'b2\'bf\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4\'a1\'a3	UIViewAutoresizingFlexibleWidth\
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d7\'d4\'bc\'ba\'b5\'c4\'bf\'ed\'b6\'c8\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'d7\'f3\'b1\'df\'ba\'cd\'d3\'d2\'b1\'df\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4\'a1\'a3	UIViewAutoresizingFlexibleHeight\
+		\'d7\'d4\'b6\'af\'b5\'f7\'d5\'fb\'d7\'d4\'bc\'ba\'b5\'c4\'b8\'df\'b6\'c8\'a3\'ac\'b1\'a3\'d6\'a4\'d3\'ebsuperView\'b6\'a5\'b2\'bf\'ba\'cd\'b5\'d7\'b2\'bf\'b5\'c4\'be\'e0\'c0\'eb\'b2\'bb\'b1\'e4\'a1\'a3\
+
+\fs44 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx4948\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 =========================\
+UIViewController\'d6\'ae\'bc\'e4\'b5\'c4\'c7\'d0\'bb\'bb\
+\
+   1.\'b7\'d6\'b8\'ee\'b9\'a6\'c4\'dc\'b5\'bd\'b2\'bb\'cd\'ac\'b5\'c4Controller\'d2\'b3\'c3\'e6\'c9\'cf\
+\
+   2.\'c8\'e7\'ba\'ce\'b9\'dc\'c0\'ed\'b6\'e0\'b8\'f6UIViewController\'d6\'ae\'bc\'e4\'b5\'c4\'c7\'d0\'bb\'bb\
+     1\'a3\'a9\'c7\'d0\'bb\'bb\'b5\'bd\'d0\'c2\'b5\'c4\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\
+      - (void)presentViewController:(UIViewController *)viewControllerToPresent \
+			   animated:(BOOL)flag \
+			 completion:(void (^)(void))completion\
+	\
+     2\'a3\'a9\'b9\'d8\'b1\'d5\'b5\'b1\'c7\'b0\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\
+      - (void)dismissViewControllerAnimated:(BOOL)flag \
+			         completion:(void (^)(void))completion\
+\
+     3\'a3\'a9\'c4\'a3\'ca\'bd\'c7\'d0\'bb\'bb\'b7\'bd\'ca\'bd:	\
+	modalTransitionStyle\
+\
+		UIModalTransitionStyleCoverVertical    \'b4\'d3\'cf\'c2\'cf\'f2\'c9\'cf\
+		UIModalTransitionStyleCrossDissolve      \'bd\'a5\'b1\'e4\
+		UIModalTransitionStyleFlipHorizontal     \'ba\'e1\'cf\'f2\'b7\'ad\'d7\'aa\
+		UIModalTransitionStylePartialCurl           \'b7\'ad\'ca\'e9\
+   \
+=========================\
+\'b6\'e0\'b8\'f6Controller\'d6\'ae\'bc\'e4\'b5\'c4\'ca\'fd\'be\'dd\'c8\'e7\'ba\'ce\'bd\'bb\'bb\'bb\
+   \
+     1.\'d5\'fd\'cf\'f2\'b4\'ab\'d6\'b5\
+		VA \'a1\'aa> VB\
+\
+     2.\'b7\'b4\'cf\'f2\'b4\'ab\'d6\'b5\
+		VA <\'a1\'aa VB\
+\
+	3.\'cd\'a8\'b9\'fdAppDelegate\'b6\'d4\'cf\'f3\'b4\'ab\'d6\'b5\
+		 1\'a3\'a9\'bb\'f1\'c8\'a1\'b5\'b1\'c7\'b0\'d3\'a6\'d3\'c3\'b5\'c4sharedApplication\'b6\'d4\'cf\'f3:\
+       			+ (UIApplication *)sharedApplication;\
+     	  2\'a3\'a9\'bb\'f1\'c8\'a1\'b5\'b1\'c7\'b0\'d3\'a6\'d3\'c3\'b5\'c4AppDelegate\'b6\'d4\'cf\'f3:\
+       			@property(nonatomic,assign) id<UIApplicationDelegate> delegate;\
+     	  3\'a3\'a9\'c7\'bf\'d6\'c6\'d7\'aa\'bb\'bb\'ce\'aaAppDelegate\'b6\'d4\'cf\'f3,\'c8\'bb\'ba\'f3\'cd\'a8\'b9\'fd\'b8\'c3\'b6\'d4\'cf\'f3\'b5\'c4setter\'ba\'cdgetter\'b4\'ab\'d6\'b5\
+\
+   \'c1\'b7\'cf\'b0:\
+	1.\'b6\'a8\'d2\'e52\'b8\'f6ViewController,\'b7\'d6\'b1\'f0\'ce\'aaPhotoControllerA\'ba\'cdPhotoControllerB,\
+	  	\'d2\'aa\'c7\'f3:\
+	     	1\'a3\'a9\'ca\'b9\'d3\'c3PhotoControllerA\'c0\'b4\'cf\'d4\'ca\'c7\'d5\'d5\'c6\'ac\'b5\'c4\'cb\'f5\'c2\'d4\'cd\'bc\
+		2\'a3\'a9\'b5\'e3\'bb\'f7\'cb\'f5\'c2\'d4\'cd\'bc\'ba\'f3,\'d3\'c9PhotoControllerB\'c0\'b4\'cf\'d4\'ca\'be\'cd\'ea\'d5\'fb\'b5\'c4\'cd\'bc\'c6\'ac\
+		\
+\
+=========================\
+UITextField\'ca\'b9\'d3\'c3\
+\
+   1.\'b4\'b4\'bd\'a8\'b7\'bd\'ca\'bd\
+\
+   2.\'b3\'a3\'d3\'c3\'b7\'bd\'b7\'a8\'ba\'cd\'ca\'f4\'d0\'d4\
+     1\'a3\'a9\'b1\'df\'bf\'f2\'d1\'f9\'ca\'bd\
+       		@property(nonatomic)  UITextBorderStyle   borderStyle; \
+		UITextBorderStyleNone	                      \'c3\'bb\'d3\'d0\'b1\'df\'bf\'f2,\'b1\'b3\'be\'b0\'c4\'ac\'c8\'cf\'ce\'aa\'cd\'b8\'c3\'f7\
+		UITextBorderStyleLine		                      \'cf\'df\'bf\'f2,\'b1\'b3\'be\'b0\'c4\'ac\'c8\'cf\'ce\'aa\'cd\'b8\'c3\'f7\
+		UITextBorderStyleBezel	bezel           \'b7\'e7\'b8\'f1\'b1\'df\'bf\'f2,\'b1\'b3\'be\'b0\'c4\'ac\'c8\'cf\'ce\'aa\'cd\'b8\'c3\'f7\
+		UITextBorderStyleRoundedRect         \'d4\'b2\'bd\'c7\'b1\'df\'bf\'f2,\'b1\'b3\'be\'b0\'c4\'ac\'c8\'cf\'ce\'aa\'b0\'d7\'c9\'ab\
+\
+     2\'a3\'a9\'cc\'e1\'ca\'be\'ce\'c4\'d7\'d6: placeholder \
+\
+     3\'a3\'a9\'bc\'fc\'c5\'cc\'c0\'e0\'d0\'cd: keyboardType\
+	\
+     4\'a3\'a9\'bc\'fc\'c5\'cc\'d1\'f9\'ca\'bd: keyboardAppearance\
+\
+     5\'a3\'a9\'c3\'dc\'ce\'c4\'ca\'e4\'c8\'eb: secureTextEntry \
+\
+     6\'a3\'a9\'d4\'d9\'b4\'ce\'b1\'e0\'bc\'ad\'ca\'c7\'b7\'f1\'c7\'e5\'bf\'d5: clearsOnBeginEditing\
+\
+     7\'a3\'a9\'ce\'c4\'b1\'be\'ba\'e1\'cf\'f2\'b6\'d4\'c6\'eb\'b7\'bd\'ca\'bd: textAlignment\
+\
+     8\'a3\'a9\'ce\'c4\'b1\'be\'b9\'f6\'b6\'af: adjustsFontSizeToFitWidth \
+					\'b4\'ee\'c5\'e4	
+\f1 \CocoaLigature0 minimumFontSize\'d2\'bb\'c6\'f0\'ca\'b9\'d3\'c3\
+
+\f0 \CocoaLigature1 \
+     9\'a3\'a9return\'bc\'fc\'c0\'e0\'d0\'cd:returnKeyType\
+			@property(nonatomic) UIReturnKeyType returnKeyType; \
+			UIReturnKeyDefault,\
+    			UIReturnKeyGo,\
+    			UIReturnKeyGoogle,\
+    			UIReturnKeyJoin,\
+    			UIReturnKeyNext,\
+    			UIReturnKeyRoute,\
+    			UIReturnKeySearch,\
+    			UIReturnKeySend,\
+    			UIReturnKeyYahoo,\
+    			UIReturnKeyDone,\
+    			UIReturnKeyEmergencyCall,\
+\
+\
+     10\'a3\'a9\'c7\'e5\'c0\'ed\'b0\'b4\'c5\'a5\'c4\'a3\'ca\'bd:clearButtonMode\
+			@property(nonatomic)        UITextFieldViewMode  clearButtonMode;\
+	\
+			UITextFieldViewModeNever,\
+    			UITextFieldViewModeWhileEditing,\
+    			UITextFieldViewModeUnlessEditing,\
+    			UITextFieldViewModeAlways\
+\
+   3.UITextFieldDelegate \'d0\'ad\'d2\'e9\
+     1\'a3\'a9\'ca\'c7\'b7\'f1\'bf\'c9\'d2\'d4\'bd\'f8\'c8\'eb\'b1\'e0\'bc\'ad\'c4\'a3\'ca\'bd\
+     	- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField;\
+\
+     2\'a3\'a9\'ce\'c4\'b1\'be\'bf\'f2\'d2\'d1\'be\'ad\'bd\'f8\'c8\'eb\'b1\'e0\'bc\'ad\'c4\'a3\'ca\'bd\
+     	-(void)textFieldDidBeginEditing:(UITextField *)textField;\
+\
+     3\'a3\'a9\'ce\'c4\'b1\'be\'bf\'f2\'ca\'c7\'b7\'f1\'bf\'c9\'d2\'d4\'bd\'e1\'ca\'f8\'b1\'e0\'bc\'ad\'c4\'a3\'ca\'bd\
+     	-(BOOL)textFieldShowEndEditing:(UITextField *)textField;\
+\
+\
+     4\'a3\'a9\'ce\'c4\'b1\'be\'bf\'f2\'d2\'d1\'bd\'e1\'ca\'f8\'b1\'e0\'bc\'ad\'c4\'a3\'ca\'bd\
+     	-(void)textFieldDidEndEditing:(UITextField *)textField;\
+\
+     5\'a3\'a9\'ca\'c7\'b7\'f1\'bf\'c9\'d2\'d4\'b5\'e3\'bb\'f7clear\'b0\'b4\'c5\'a5\
+     	-(BOOL)textFieldShouldClear:(UITextField *)textField;\
+\
+     6\'a3\'a9\'ca\'c7\'b7\'f1\'bf\'c9\'d2\'d4\'b5\'e3\'bb\'f7return\'b0\'b4\'c5\'a5\
+     	-(BOOL)textFieldShouleReturn:(UITextField *)textField;\
+  \
+     7\'a3\'a9\'d4\'ca\'d0\'ed\'d0\'de\'b8\'c4\'c4\'da\'c8\'dd\
+     	- (BOOL)textField:(UITextField *)textField \
+		shouldChangeCharactersInRange:(NSRange)range \
+		    replacementString:(NSString *)string;\
+  \
+\
+\
+    \'bf\'ce\'ba\'f3\'d7\'f7\'d2\'b5:\
+	1.\'cd\'ea\'b3\'c9\'d2\'bb\'b8\'f6\'d3\'c3\'bb\'a7\'b5\'c4\'b5\'c7\'c2\'bc\'b4\'b0\'bf\'da\
+	2.\'cd\'ea\'b3\'c9\'d2\'bb\'b8\'f6\'d3\'c3\'bb\'a7\'b5\'c4\'d7\'a2\'b2\'e1\'b4\'b0\'bf\'da\
+	  \'d2\'aa\'c7\'f3:\
+	      1)\'d3\'c3\'bb\'a7\'d7\'a2\'b2\'e1\'cd\'ea\'ba\'f3\'bb\'d8\'b5\'bd\'b5\'c7\'c2\'bc\'b4\'b0\'bf\'da\
+	      2)\'bd\'ab\'d3\'c3\'bb\'a7\'d7\'a2\'b2\'e1\'ca\'b1\'cc\'ee\'d0\'b4\'b5\'c4\'d3\'c3\'bb\'a7\'c3\'fb\'ba\'cd\'c3\'dc\'c2\'eb\'cc\'ee\'c8\'eb\'b5\'c7\'c2\'bc\'b4\'b0\'bf\'da\'d6\'d0(\'b7\'b4\'cf\'f2\'b4\'ab\'d6\'b5)\
+\'a1\'a1 \
+\
+\
+\
+\
+\
+\
+\
+\
+}
